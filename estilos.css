@@ -117,7 +117,6 @@ body{
 .Foto2{
 
     width: 50%;
-
     margin-top: 900x;
     float: right;
 }
@@ -213,11 +212,9 @@ body{
 }
 .Horario h3{
     font-size: 1.5em;
-    padding-left: 20px;
     font-style: oblique;
     padding-top: 20px;
-    padding-left: 40PX;
-
+    padding-left: 60px;
 }
 .Horario ul{
     padding-top: 1em;
@@ -228,33 +225,38 @@ body{
     list-style: none;
     text-align: center;
 }
-
-.RedesSociales {
+.Contacto {
     margin-top:-265px;
-    margin-left: 1400px;
+    margin-left: 1000px;
+    width: 200px;
+    height: 150px;
+    padding-left: 40PX;
+    background-color: aqua;
+}
+.Contacto h3{
+    font-size: 1.5em;
+    font-style: oblique;
+    padding-top: 20px;
+    padding-left: 60px;
+    
+}
+.RedesSociales {
+    margin-top:-50px;
+    margin-left: 400px;
     width: 200PX;
     padding-left: 40PX;
 
 }
 
-
 .RedesSociales img {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
 }
 
 .RedesSociales h4{
     font-size: 1.5em;
-    padding-left: 20px;
     font-style: oblique;
     padding-top: 20px;
-    padding-left: 40PX;
+    
 }
 
-.Contacto {
-    margin-top:-265px;
-    margin-left: 1000px;
-    width: 200PX;
-    padding-left: 40PX;
-    background-color: aqua;
-}
