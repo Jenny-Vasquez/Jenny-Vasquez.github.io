@@ -3,13 +3,14 @@
     margin: 0px;
 }
 body{
-     background: linear-gradient(yellow, rgb(233, 133, 150),white);
+     background: linear-gradient(wheat,white,wheat,white);
      height: 100%;
 }
 /*-------cabecera--------*/
 .cabecera{
     overflow: hidden;
-    background-color:rgba(255, 250, 205, 0.892);
+    background-color: linear-gradient(wheat,white);
+
 }
 .logo img {
     float: left;
@@ -58,8 +59,8 @@ body{
 
 .Titulo h1 {
     width: 100%;
-    height: 40%;
-    background-image: url(Fotos/portada2.jpg);
+    height: 30%;
+    background-image: url(Fotos/portada1.png);
     padding-top: 200px;
     font-size: 100px;
     font-style: oblique;
@@ -87,6 +88,7 @@ body{
     padding-top: 1em;
     font-size: 2em;
     margin-left: 5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  }
  .Informacion ul{
     padding-top: 1em;
@@ -95,8 +97,8 @@ body{
  .Informacion li{
     font-size: 1em;
     margin-left: 10%;
-    list-style: url(Fotos/Cupcake.png);
-}
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
 
 .contenedor {
     position: relative;
@@ -138,47 +140,58 @@ body{
   }
 .Opinion{
     padding-top: 1em;
-    margin-top:1500px;
+    margin-top:1450px;
     width: 100%;
     height: 600px;   
+    background-color:whitesmoke;
+    border-radius: 150px;
 }
 .Opinion h2{
     font-size: 4em;
     font-style: oblique;
     text-align: center;
+    color:aquamarine;
+    text-shadow: -1px 0 black, 0 1px black,
+    1px 0 white, 0 -1px #9c6b43f6;
  }
 .Op1{
     font-size: 1.5em;
     text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 400px;
     height: 400px;
     margin-left: 50px;
     margin-top: 50px; 
     padding: 1%;
+    color:rgb(68, 64, 64);
 }
 .Op2{
     font-size: 1.5em;
     text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 400px;
     height: 400px;
     margin-top:-430px;
     margin-left: 650px;
     padding: 1%;
+    color:rgb(68, 64, 64);
 }
 .Op3{
     font-size: 1.5em;
     text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 400px;
     height: 400px;
     margin-top: -430px;
     margin-left: 1200px;
     padding: 1%;
+    color:rgb(68, 64, 64);
 }
 
 
 /*--------------------pie de pagina---------------*/
 .footer {
-    background-color: beige;
+    background-color: wheat;
     width: 100%;
     float: left;
 
@@ -193,6 +206,7 @@ body{
     width: 10%;
     float: left;
     padding: 1%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .ProductosFooter {
@@ -211,7 +225,7 @@ body{
 .ProductosFooter p,
 .contacto a,
 .contacto ul {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     list-style: none;
     color: #214001;
@@ -230,7 +244,7 @@ body{
 .ProductosFooter h3,
 .contacto h3 {
     color: black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
@@ -253,7 +267,7 @@ body{
 .RedesSociales li,
 .RedesSociales a,
 .RedesSociales h3 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     list-style: none;
     margin-left: 0.5em;
