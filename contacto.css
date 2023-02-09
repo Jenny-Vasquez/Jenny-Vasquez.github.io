@@ -50,10 +50,7 @@ body{
     width: 100%;
     background: #35e1e1e0;
 }
-
 /*------------------------Cuerpo---------------*/
-
-
 .Titulo h1 {
     width: 100%;
     height: 30%;
@@ -88,135 +85,50 @@ body{
     
 }
  .Informacion{
-    width: 50%;
+    width: 40%;
     height: 600px;
-    padding-top: 100px;
+    padding-top: 50px;
     margin-top: 600px;
     background-color:aliceblue;
     border-radius: 150px;
     margin-left: 50px;
     float: left;
-    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    box-shadow: inset 0.3em 0.3em 2em rgba(231, 181, 202, 0.814),
     0 0  0 2px rgb(255,255,255),
-    0.3em 0.3em 1em rgba(0,0,0,0.3);
+    0.3em 0.3em 1em rgba(231, 181, 202, 0.814);
  }
  .Informacion h2{
-    font-size: 4em;
+    font-size: 2em;
     font-style: oblique;
-    margin-left: 20%;
-    color:burlywood;
-    text-shadow: -1px 0 black, 0 1px black,
-    1px 0 black, 0 -1px black;
+    color:black;
+    text-align: center;
+
+ }
+.Informacion h3{
+    padding-top: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    color:black;
  }
  .Informacion p{
     padding-top: 1em;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-left: 5%;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:grey;
+    text-align: center;
  }
  .Informacion ul{
     padding-top: 1em;
-    font-size: 2em;
-    margin-left: 5%;}
+    font-size: 1.5em;
+    margin-left: 20%;
+}
  .Informacion li{
     font-size: 1em;
     margin-left: 10%;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:gray;
  }
-
-.contenedor {
-    position: relative;
-    width: 25%;
-    margin-top: 500px;
-    margin-left: 100px;
-    float:left; 
-}
-  
-  .contenedor img {
-    position: absolute;
-    left: 150px;
-    transition: opacity 1.5s ease-in-out;
-    border-radius: 100px;
-    width: 350px;
-  }
-  
-  .contenedor img.top:hover {
-    opacity: 0;
-  }
-  .contenedor1 {
-    position: relative;
-    width: 25%;
-    margin-left: 250px;
-    margin-top: 430px;
-    float: left; 
-    
-  }
-  .contenedor1 img {
-    position: absolute;
-    transition: opacity 1.5s ease-in-out;
-    border-radius: 100px;
-    width: 350px;
-   
-  }
-  .contenedor1 img.top:hover {
-    opacity: 0;
-  }
-.Opinion{
-    padding-top: 1em;
-    margin-top:1450px;
-    margin-left: 15px;
-    width: 98%;
-    height: 600px;   
-    background-color:aliceblue;
-    border-radius: 150px;
-    box-shadow: inset 0 -3em 4em rgba(0,0,0,0.1),
-    0 0  0 2px rgb(255,255,255),
-    0.3em 0.3em 1em rgba(0,0,0,0.3);
-}
-.Opinion h2{
-    font-size: 4em;
-    font-style: oblique;
-    text-align: center;
-    color:burlywood;
-    text-shadow: -1px 0 black, 0 1px black,
-    1px 0 black, 0 -1px black;
- }
-.Op1{
-    font-size: 1.5em;
-    text-align: justify;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 400px;
-    height: 400px;
-    margin-left: 50px;
-    margin-top: 50px; 
-    padding: 1%;
-    color:rgb(68, 64, 64);
-}
-.Op2{
-    font-size: 1.5em;
-    text-align: justify;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 400px;
-    height: 400px;
-    margin-top:-430px;
-    margin-left: 650px;
-    padding: 1%;
-    color:rgb(68, 64, 64);
-}
-.Op3{
-    font-size: 1.5em;
-    text-align: justify;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 400px;
-    height: 400px;
-    margin-top: -430px;
-    margin-left: 1200px;
-    padding: 1%;
-    color:rgb(68, 64, 64);
-}
-
 /*--------------------pie de pagina---------------*/
 .footer {
     background-color:rgba(224, 255, 255, 0.984);
