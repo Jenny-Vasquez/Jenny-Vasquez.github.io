@@ -31,8 +31,8 @@ body{
     padding: 4px;
     font-size: 2em;
     color:burlywood;
-    text-shadow: -1px 0 black, 0 1px black,
-    1px 0  black, 0 -1px  black;
+    text-shadow: -1px 0 white, 0 1px black,
+    1px 0  black, 0 -1px  white;
     text-decoration: none;
     display: inline-block;
     text-decoration: none;
