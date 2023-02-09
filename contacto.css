@@ -129,6 +129,69 @@ body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:gray;
  }
+ .Formulario{
+    width: 40%;
+    height: 600px;
+    padding-top: 50px;
+    margin-top: 600px;
+    background-color:aliceblue;
+    border-radius: 150px;
+    margin-left: 180px;
+    float: left;
+    box-shadow: inset 0.3em 0.3em 2em rgba(231, 181, 202, 0.814),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(231, 181, 202, 0.814);
+ }
+
+ .Formulario fieldset{
+    position: absolute; 
+    width: 30%; 
+    height:460px; 
+    padding-top: 50px;
+    margin-left: 770px;
+    text-align: justify;
+    font-size: 20px;
+    left: 10%;
+    border-color: rgba(231, 181, 202, 0.814);
+    border-radius:10px;
+
+ }
+ #contacto2 {
+    padding: 1em;
+    border-radius: 5px;
+    background-color: skyblue;
+    color:black;
+    margin-top: 30px;
+    margin-left: 160px;
+    font-size: 14px;
+}
+.Formulario legend{
+    font-size: 1.5em;
+    text-align: center;
+    color:black;
+    font-style: oblique;
+}
+.Formulario label{
+    font-size: 1em;
+    text-align: center;
+    color:black;
+    padding-left: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#cajatexto{
+    padding: 0.5em;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+#consulta{
+    padding: 0.5em;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: skyblue;
+    color:black;
+    font-size: 14px;
+}
+
 /*--------------------pie de pagina---------------*/
 .footer {
     background-color:rgba(224, 255, 255, 0.984);
