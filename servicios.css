@@ -118,6 +118,7 @@ body{
     font-size: 1.5em;
     margin-left: 5%;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
     color:grey;
  }
 /******tarjetas galeria*****/
@@ -132,14 +133,14 @@ body{
     border-radius: 50px;
     margin-left: 100px;
     float: left;
-    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    box-shadow:inset 0.3em 0.3em 2em rgba(231, 181, 202, 0.814),
     0 0  0 2px rgb(255,255,255),
-    0.3em 0.3em 1em rgba(0,0,0,0.3);
+    0.3em 0.3em 1em rgba(231, 181, 202, 0.814);
 
  }
  .Galeria h4{
     font-size: 2em;
-    padding-top: 5px;
+    padding-top: 15px;
     text-align: center;
     font-style: oblique;
     color:burlywood;
@@ -155,10 +156,11 @@ body{
 }
 .Galeria .contenedor img {
     position: absolute;
-    left: 30px;
+    left: 20px;
     transition: opacity 1.5s ease-in-out;
     border-radius: 50px;
     width: 350px;
+    height: 400px;
   }
   #contacto1 {
     margin-top: 410px;
@@ -173,7 +175,7 @@ body{
   .Galeria .contenedor img.top:hover {
     opacity: 0;
   }
-  /**-----tarjeta2-*/
+  /**--------TARJETA2--------*/
   .Galeria1{
     width: 33%;
     height: 550px;
@@ -182,14 +184,14 @@ body{
     border-radius: 50px;
     float: left;
     margin-left: 300px;
-    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    box-shadow:inset 0.3em 0.3em 2em rgba(231, 181, 202, 0.814),
     0 0  0 2px rgb(255,255,255),
-    0.3em 0.3em 1em rgba(0,0,0,0.3);
+    0.3em 0.3em 1em rgba(231, 181, 202, 0.814);
 
  }
  .Galeria1 h4{
     font-size: 2em;
-    padding-top: 5px;
+    padding-top: 15px;
     text-align: center;
     font-style: oblique;
     color:burlywood;
@@ -205,11 +207,11 @@ body{
 }
 .Galeria1 .contenedor img {
     position: absolute;
-    left: 30px;
+    left: 20px;
     transition: opacity 1.5s ease-in-out;
     border-radius: 50px;
-    width: 325px;
-    height: 390px;
+    width: 350px;
+    height: 400px;
   }
   #contacto1 {
     margin-top: 410px;
@@ -233,14 +235,14 @@ body{
     border-radius: 50px;
     float: left;
     margin-left: 100px;
-    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    box-shadow:inset 0.3em 0.3em 2em rgba(231, 181, 202, 0.814),
     0 0  0 2px rgb(255,255,255),
-    0.3em 0.3em 1em rgba(0,0,0,0.3);
+    0.3em 0.3em 1em rgba(231, 181, 202, 0.814);
 
  }
  .Galeria2 h4{
     font-size: 2em;
-    padding-top: 5px;
+    padding-top: 15px;
     text-align: center;
     font-style: oblique;
     color:burlywood;
@@ -256,11 +258,11 @@ body{
 }
 .Galeria2 .contenedor img {
     position: absolute;
-    left: 40px;
+    left: 20px;
     transition: opacity 1.5s ease-in-out;
     border-radius: 50px;
-    width: 320px;
-    height: 390px;
+    width: 350px;
+    height: 400px;
   }
   #contacto2 {
     margin-top: 410px;
@@ -284,14 +286,14 @@ body{
     border-radius: 50px;
     float: left;
     margin-left: 300px;
-    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    box-shadow:inset 0.3em 0.3em 2em rgba(231, 181, 202, 0.814),
     0 0  0 2px rgb(255,255,255),
-    0.3em 0.3em 1em rgba(0,0,0,0.3);
+    0.3em 0.3em 1em rgba(231, 181, 202, 0.814);
 
  }
  .Galeria3 h4{
     font-size: 2em;
-    padding-top: 5px;
+    padding-top: 15px;
     text-align: center;
     font-style: oblique;
     color:burlywood;
@@ -307,11 +309,11 @@ body{
 }
 .Galeria3 .contenedor img {
     position: absolute;
-    left: 30px;
+    left: 20px;
     transition: opacity 1.5s ease-in-out;
     border-radius: 50px;
-    width: 325px;
-    height: 390px;
+    width: 350px;
+    height: 400px;
   }
   #contacto1 {
     margin-top: 410px;
