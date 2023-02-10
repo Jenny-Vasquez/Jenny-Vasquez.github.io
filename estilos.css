@@ -93,12 +93,12 @@ body{
     padding-top: 100px;
     margin-top: 600px;
     background-color:aliceblue;
-    border-radius: 150px;
+    border-radius: 50px;
     margin-left: 50px;
     float: left;
-    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    box-shadow: inset 0.3em 0.3em 2em rgba(231, 181, 202, 0.814),
     0 0  0 2px rgb(255,255,255),
-    0.3em 0.3em 1em rgba(0,0,0,0.3);
+    0.3em 0.3em 1em rgba(231, 181, 202, 0.814);
  }
  .Informacion h2{
     font-size: 4em;
@@ -138,7 +138,7 @@ body{
     position: absolute;
     left: 150px;
     transition: opacity 1.5s ease-in-out;
-    border-radius: 100px;
+    border-radius: 50px;
     width: 350px;
   }
   
@@ -156,7 +156,7 @@ body{
   .contenedor1 img {
     position: absolute;
     transition: opacity 1.5s ease-in-out;
-    border-radius: 100px;
+    border-radius: 50px;
     width: 350px;
    
   }
@@ -170,10 +170,10 @@ body{
     width: 98%;
     height: 600px;   
     background-color:aliceblue;
-    border-radius: 150px;
-    box-shadow: inset 0 -3em 4em rgba(0,0,0,0.1),
+    border-radius: 50px;
+    box-shadow: inset 0.3em 0.3em 2em rgba(231, 181, 202, 0.814),
     0 0  0 2px rgb(255,255,255),
-    0.3em 0.3em 1em rgba(0,0,0,0.3);
+    0.3em 0.3em 1em rgba(231, 181, 202, 0.814);
 }
 .Opinion h2{
     font-size: 4em;
@@ -201,7 +201,7 @@ body{
     width: 400px;
     height: 400px;
     margin-top:-430px;
-    margin-left: 650px;
+    margin-left: 580px;
     padding: 1%;
     color:rgb(68, 64, 64);
 }
@@ -212,7 +212,7 @@ body{
     width: 400px;
     height: 400px;
     margin-top: -430px;
-    margin-left: 1200px;
+    margin-left: 1150px;
     padding: 1%;
     color:rgb(68, 64, 64);
 }

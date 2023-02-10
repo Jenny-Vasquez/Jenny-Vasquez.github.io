@@ -181,6 +181,85 @@ body{
     color:grey;
     text-align: center;
  }
+ .Mapa{
+    width: 40%;
+    height: 600px;
+    padding-top: 50px;
+    margin-top: 100px;
+    background-color:aliceblue;
+    border-radius: 50px;
+    margin-left: 50px;
+    float: left;
+    box-shadow: inset 0.3em 0.3em 2em rgba(231, 181, 202, 0.814),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(231, 181, 202, 0.814);
+ }
+ .Mapa h2{
+    font-size: 2em;
+    font-style: oblique;
+    color:black;
+    text-align: center;
+
+ }
+
+ .Mapa p{
+    padding-top: 1em;
+    font-size: 1.5em;
+    margin-left: 5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:grey;
+    text-align: center;
+ }
+ .Mapa iframe{
+    width: 600px;
+    height:450px;
+    border:0px;
+    border-radius:50px;
+    allowfullscreen:"" ;
+    loading="lazy" referrerpolicy="no-referrer-when-downgrade";
+ }
+ .Galeria{
+    width: 45%;
+    height: 650px;
+    margin-top: 100px;
+    background-color:aliceblue;
+    border-radius: 50px;
+    margin-left: 100px;
+    float: left;
+    box-shadow: inset 0.3em 0.3em 2em rgba(231, 181, 202, 0.814),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(231, 181, 202, 0.814);
+
+ }
+
+ .Galeria .Fotos {
+    display: flex;
+    position: absolute;
+    width: 650px;
+    height: 550px;
+    margin-top: 50px;
+    margin-left: 15px;
+    float:left; 
+}
+.Galeria .Fotos img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: 5s ease;
+    border-radius: 50px;
+  }
+  .Galeria .Fotos img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+  }
+ .Fotos{
+    
+ }
+
+
  /*--------------------pie de pagina---------------*/
 .footer {
     background-color:rgba(224, 255, 255, 0.984);
