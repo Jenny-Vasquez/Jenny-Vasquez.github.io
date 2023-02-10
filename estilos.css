@@ -27,7 +27,9 @@ body{
   
 }
 
-.enlaces a {
+ .enlaces a {
+    outline: none;
+    text-decoration: none;
     padding: 4px;
     font-size: 1.5em;
     color:burlywood;
@@ -36,20 +38,15 @@ body{
     text-decoration: none;
     display: inline-block;
     text-decoration: none;
-}
-.enlaces a:after {
-    content: "";
-    display: block;
-    margin: auto;
-    height: 2px;
-    width: 0px;
-    transition: all .8s;
-}
+   }
+    
+   .enlaces a:hover {
+    border-bottom: 1px solid;
+    background: #eabbd4;
+    border-radius: 10px;
+   }
+   
 
-.enlaces a:hover:after {
-    width: 100%;
-    background: #35e1e1e0;
-}
 
 /*------------------------Cuerpo---------------*/
 
